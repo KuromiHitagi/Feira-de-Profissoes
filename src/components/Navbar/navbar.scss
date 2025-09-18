@@ -14,13 +14,14 @@
   .navbar__brand{
     margin-left: 15px;
     img{
+      background: none;
+      height: 150px;
+      border-radius: 140px;
+
       @media (max-width:768px) {
         margin-top: 25px;
         height: 100px;
       }
-      background: none;
-      height: 150px;
-      border-radius: 140px;
     }
     img:hover{
         background-color: rgba(0, 0, 0, 0.144);
@@ -109,9 +110,9 @@
       width: 97vw;
     }
   .spacement{
+    width: 270px;
     @media (max-width:768px) {
         width: 120px;
       }
-    width: 270px;
   }
 }

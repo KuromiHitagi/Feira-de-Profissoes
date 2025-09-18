@@ -74,15 +74,16 @@
     .historia-fotos{
         .fotos-grid{
             .img-aluno{
-                @media (max-width:768px) {
-                    width: 500px;
-                    height: 250px;
-                }
                 margin-top: 55px;
                 border: 1px solid white;
                 border-radius: 5px;
                 width: 700px;
                 height: 350px;
+                
+                @media (max-width:768px) {
+                    width: 500px;
+                    height: 250px;
+                }
             }
         }
     }
