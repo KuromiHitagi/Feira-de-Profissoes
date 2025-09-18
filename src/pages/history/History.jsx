@@ -11,7 +11,7 @@ import "./History.scss";
         <section className="historia-header">
         <div className="historia-card">
               <div className="historia-card-img">
-                <img id="historiaimg" src="../../../public/ISNSF.png" alt="Instituto" />
+                <img id="historiaimg" src="/ISNSF.png" alt="Instituto" />
               </div>
               <div className="historia-card-txt">
                 <p>
@@ -34,7 +34,7 @@ import "./History.scss";
 
         <section className="historia-fotos">
             <div className="fotos-grid">
-              <img className="img-aluno" src="../../../public/img-aluno-1.png" alt="img-aluno" />
+              <img className="img-aluno" src="/img-aluno-1.png" alt="img-aluno" />
             </div>
         </section>
       </main>
