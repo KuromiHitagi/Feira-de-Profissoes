@@ -15,7 +15,7 @@ function Home() {
           <div className="apresentacao">
             <Link className='video-antes' to="/register">
               <video className="video" autoPlay loop muted>
-                <source src="/src/assets/videos/background_feira.mp4" type="video/mp4" />
+                <source src="/public/background_feira.mp4" type="video/mp4" />
               </video>
             </Link>
           </div>
